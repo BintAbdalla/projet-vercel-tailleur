@@ -3,6 +3,9 @@ info:
   title: API de Gestion des Utilisateurs
   version: 1.0.0
   description: API permettant de créer un compte utilisateur.
+  
+servers:
+  - url: projet-vercel-tailleur.vercel.app
 
 paths:
   /api/v1/register:
